@@ -1,0 +1,81 @@
+{
+  "order_id": "integer",
+  "client_id": "integer",
+  "user_id": "integer",
+  "tech_id": "integer",
+  "client_type": "integer",
+  "order_name": "string",
+  "start_date": "date",
+  "end_date": "date",
+  "create_date": "datetime",
+  "release_date": "datetime",
+  "checkout_date": "datetime",
+  "price_final": "float",
+  "price_type": "int",
+  "pay_type": "int",
+  "discont": "int",
+  "materialregprice": "float",
+  "net_price": "float",
+  "min_price": "float",
+  "work_price": "float",
+  "order_type": "integer",
+  "filial": "integer",
+  "percent": "float",
+  "linked_to": "integer",
+  "attributes": {
+    "name": "string",
+    "phone": "string",
+    "address": "string",
+    "idnp": "string",
+    "needsInvoice": "boolean",
+    "drillStation": "",
+    "isImported": "boolean",
+    "drillProgramm": "boolean",
+    "poliuretan": "boolean",
+    "comment": "string",
+    "delivery": "integer",
+    "isIndContract": "boolean"
+  },
+  "spec": [
+    {
+      "onlyAbs": "boolean",
+      "clientMat": "boolean",
+      "goods_id": "integer",
+      "parts": [
+        {
+          "pos": "integer",
+          "length": "integer",
+          "width": "integer",
+          "final_length": "integer",
+          "final_width": "integer",
+          "num": "integer",
+          "l1": "integer",
+          "l2": "integer",
+          "w1": "integer",
+          "w2": "integer",
+          "drill": "boolean",
+          "cpu": "boolean",
+          "glue_up": "boolean",
+          "notch": "boolean",
+          "corner": "boolean",
+          "recut": "boolean",
+          "modelIndex": "integer",
+          "pparent_part_id": "integer",
+          "comment": "string"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "goods_id": "integer",
+      "is_service": "boolean",
+      "quant": "float",
+      "real_quant": "float",
+      "base_quant": "integer",
+      "reg_price": "float",
+      "sell_price": "float",
+      "sell_sum": "float"
+    }
+  ]
+}
