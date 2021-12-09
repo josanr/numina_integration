@@ -60,7 +60,7 @@
           "corner": "boolean",
           "recut": "boolean",
           "modelIndex": "integer",
-          "pparent_part_id": "integer",
+          "parent_part_id": "integer",
           "comment": "string"
         }
       ]
