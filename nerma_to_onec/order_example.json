@@ -22,6 +22,8 @@
   "filial": 1,
   "percent": 26.000,
   "linked_to": null,
+  "production_site": 3489,
+  "finished_good_id": 15575,
   "attributes": {
     "comment": "Коментарий к заказу",
     "poliuretan": false,

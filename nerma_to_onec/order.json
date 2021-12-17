@@ -22,6 +22,8 @@
   "filial": "integer",
   "percent": "float",
   "linked_to": "integer",
+  "production_site": "integer",
+  "finished_good_id": "integer",
   "attributes": {
     "name": "string",
     "phone": "string",
